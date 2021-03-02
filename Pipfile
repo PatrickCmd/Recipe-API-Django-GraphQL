@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==3.1.7"
+graphene-django = "==2.15.0"
+django-filter = "==2.4.0"
+django-graphql-jwt = "==0.3.1"
+pyjwt = "==1.7.1"
+psycopg2-binary = "==2.8.6"
+africastalking = "*"
+django-extensions = "==3.1.1"
+
+[requires]
+python_version = "3.8"
